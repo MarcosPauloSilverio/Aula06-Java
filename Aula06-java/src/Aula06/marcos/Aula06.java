@@ -8,6 +8,8 @@ public class Aula06 {
 	private String sobrenome;
 	
 	private int idade;
+	
+	private String dataNascimento;
 
 
 	//Declaração dos Métodos
@@ -33,6 +35,14 @@ public class Aula06 {
 
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+	
+	public String getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(String dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 
 }
