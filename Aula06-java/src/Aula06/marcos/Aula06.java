@@ -3,7 +3,7 @@ package Aula06.marcos;
 public class Aula06 {
 	
 	//Declaração dos Atributos
-	private String nome;
+	private String Nome;
 	
 	private String sobrenome;
 	
@@ -12,11 +12,11 @@ public class Aula06 {
 
 	//Declaração dos Métodos
 	public String getNome() {
-		return nome;
+		return Nome;
 	}
 
 	public void setNome(String nome) {
-		this.nome = nome;
+		this.Nome = nome;
 	}
 
 	public String getSobrenome() {
