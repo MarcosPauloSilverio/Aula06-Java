@@ -1,48 +1,54 @@
 package Aula06.marcos;
 
-public class Aula06 {
+public class Pessoa {
 	
 	//Declaração dos Atributos
-	private String Nome;
-	
-	private String sobrenome;
-	
-	private int idade;
-	
-	private String dataNascimento;
+	private String Nome;	
+	private String Sobrenome;
+	private int Idade;	
+	private String Endereco;	
+	private String DataNascimento;
 
 
 	//Declaração dos Métodos
 	public String getNome() {
 		return Nome;
 	}
-
+	
 	public void setNome(String nome) {
-		this.Nome = nome;
+		Nome = nome;
 	}
-
+	
 	public String getSobrenome() {
-		return sobrenome;
+		return Sobrenome;
 	}
-
+	
 	public void setSobrenome(String sobrenome) {
-		this.sobrenome = sobrenome;
+		Sobrenome = sobrenome;
 	}
 	
-	public int getIdade() {
-		return idade;
+	public void getIdade() {
+		return Idade;
 	}
-
+	
 	public void setIdade(int idade) {
-		this.idade = idade;
+		Idade = idade;
 	}
 	
-	public String getDataNascimento() {
-		return dataNascimento;
+	public void getEndereco() {
+		return Endereco;
 	}
-
+	
+	public void setEndereco(String endereco) {
+		Endereco = endereco;
+	}
+	
+	public void getDataNascimento() {
+		return DataNascimento;
+	}
+	
 	public void setDataNascimento(String dataNascimento) {
-		this.dataNascimento = dataNascimento;
+		DataNascimento = dataNascimento;
 	}
 
 }
