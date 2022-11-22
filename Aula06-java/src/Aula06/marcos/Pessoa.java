@@ -7,7 +7,8 @@ public class Pessoa {
 	private String Sobrenome;
 	private int Idade;	
 	private String Endereco;	
-	private String DataNascimento;
+	private Date DataNascimento;
+	private Date AnoAtual;
 
 
 	//Declaração dos Métodos
@@ -49,6 +50,14 @@ public class Pessoa {
 	
 	public void setDataNascimento(String dataNascimento) {
 		DataNascimento = dataNascimento;
+	}
+	
+	public void getAnoAtual() {
+		return AnoAtual;
+	}
+	
+	public setAnoAtual(String anoAtual) {
+		AnoAtual = anoAtual;
 	}
 
 }
