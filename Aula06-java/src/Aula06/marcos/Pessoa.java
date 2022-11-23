@@ -10,6 +10,7 @@ public class Pessoa {
 	private Date DataNascimento;
 	private Date AnoAtual;
 
+	private String Nome2;
 
 	//Declaração dos Métodos
 	public String getNome() {
